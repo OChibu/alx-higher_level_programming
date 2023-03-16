@@ -1,5 +1,5 @@
-#include "/usr/include/python3.4/Python.h"
 #include <stdio.h>
+#include <Python.h>
 
 void print_hexn(const char *str, int n)
 {
