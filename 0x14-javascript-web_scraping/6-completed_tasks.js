@@ -21,3 +21,8 @@ request.get(url, (error, response, body) => {
     console.log(completedTasksByUser);
   }
 });
+
+    const formattedOutput = JSON.stringify(completedTasksByUser, null, 2);
+    console.log(formattedOutput);
+  }
+});
